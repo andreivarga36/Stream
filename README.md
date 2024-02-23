@@ -1,6 +1,6 @@
 # Stream
 
-  StreamApp is a utility library providing a StreamFactory class for creating streams with optional compression and encryption functionalities. 
+  StreamApp is providing a StreamFactory class whic is used for creating streams with optional compression and encryption functionalities. 
   
   The GetWriteStream method can be used to obtain a writable stream with compression and/or encryption applied or the GetReadStream method to obtain a readable stream with decompression and/or decryption capabilities.
   
