@@ -1,6 +1,7 @@
+using StreamApp.Classes;
 using Xunit;
 
-namespace StreamApp
+namespace StreamAppFacts.Classes
 {
     public class MemoryStreamHandlerFacts
     {
@@ -66,10 +67,10 @@ namespace StreamApp
             const string text = "abcd";
 
             var streamHandler = new MemoryStreamHandler(
-                new MemoryStream(), 
-                compression: true, 
-                encryption: true, 
-                decompression: true, 
+                new MemoryStream(),
+                compression: true,
+                encryption: true,
+                decompression: true,
                 decryption: true);
             streamHandler.Write(text);
 

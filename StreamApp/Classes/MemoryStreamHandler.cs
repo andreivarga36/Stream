@@ -1,6 +1,6 @@
 using System.Security.Cryptography;
 
-namespace StreamApp
+namespace StreamApp.Classes
 {
     public class MemoryStreamHandler
     {
