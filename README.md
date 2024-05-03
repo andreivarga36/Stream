@@ -1,10 +1,19 @@
 # Stream
 
-  StreamApp is providing a StreamFactory class which is used for creating streams with optional compression and encryption functionalities. 
-  
-  The GetWriteStream method can be used to obtain a writable stream with compression and/or encryption applied or the GetReadStream method to obtain a readable stream with decompression and/or decryption capabilities.
-  
-  This implementation simplifies the process of working with streams while offering flexibility in data processing and security. Additionally, comprehensive unit tests are included using Xunit to ensure the reliability and correctness of the functionality.
+  - **MemoryStreamHandler** is a utility class designed to handle read and write operations on streams with optional compression and encryption functionalities. This class provides flexibility in managing memory streams by allowing users to apply compression and encryption to the data being written and decompression and decryption to the data being read.
+
+## Note:
+
+  - **Compression** and **Encryption** can be enabled or disabled by passing the respective boolean parameters to the constructor.
+  - For writing, if compression or encryption is enabled, the data will be processed accordingly before being written to the stream.
+  - For reading, if decompression or decryption is enabled, the data will be processed accordingly after being read from the stream.
+
+#### Technologies and Tools Used:
+
+  - **C#**: The primary programming language for implementing the MemoryStreamHandler class.
+  - **System.Security.Cryptography**: The namespace used for cryptographic operations.
+  - **System.IO.Compression**: The namespace used for compression and decompression operations.
 
 ## Documentation
-- https://learn.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-8.0
+
+- [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-8.0)
