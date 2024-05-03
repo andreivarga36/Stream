@@ -5,13 +5,17 @@
 ## Note:
 
   - **Compression** and **Encryption** can be enabled or disabled by passing the respective boolean parameters to the constructor.
+    
   - For writing, if compression or encryption is enabled, the data will be processed accordingly before being written to the stream.
+    
   - For reading, if decompression or decryption is enabled, the data will be processed accordingly after being read from the stream.
 
 ### Technologies and Tools Used:
 
   - **C#**: The primary programming language for implementing the MemoryStreamHandler class.
+    
   - **System.Security.Cryptography**: The namespace used for cryptographic operations.
+    
   - **System.IO.Compression**: The namespace used for compression and decompression operations.
 
 #### Documentation:
