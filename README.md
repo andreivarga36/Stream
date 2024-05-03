@@ -8,12 +8,12 @@
   - For writing, if compression or encryption is enabled, the data will be processed accordingly before being written to the stream.
   - For reading, if decompression or decryption is enabled, the data will be processed accordingly after being read from the stream.
 
-#### Technologies and Tools Used:
+### Technologies and Tools Used:
 
   - **C#**: The primary programming language for implementing the MemoryStreamHandler class.
   - **System.Security.Cryptography**: The namespace used for cryptographic operations.
   - **System.IO.Compression**: The namespace used for compression and decompression operations.
 
-## Documentation
+#### Documentation
 
 - [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-8.0)
